@@ -1,0 +1,47 @@
+.hero-section {
+	height: 100dvh;
+	background: linear-gradient(
+			var(--primary-transparent) 20%,
+			var(--primary) 90%
+		),
+		url(../../assets/images/superman-bg.webp) no-repeat top/cover fixed;
+
+	@media (max-width: 12.5rem) {
+		height: 100%;
+		padding-top: calc(var(--header-height) + 8dvh);
+
+		@media (max-height: 25rem) {
+		}
+	}
+
+	@media (max-width: 25rem) {
+		@media (max-height: 25rem) {
+			height: 100%;
+			padding-top: calc(var(--header-height) + 8dvh);
+		}
+	}
+
+	.side-content {
+		width: 50%;
+		flex-direction: column;
+		gap: 0.625rem;
+
+		@media (max-width: 37.5rem) {
+			width: 100%;
+		}
+
+		p {
+			color: var(--white);
+		}
+
+		button {
+			background-color: var(--yellow);
+			border: 1px solid var(--yellow-transparent);
+			color: var(--black);
+		}
+	}
+}
+
+.quote {
+	background-color: var(--gray);
+}

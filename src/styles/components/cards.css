@@ -1,0 +1,35 @@
+.curiosities-cards {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 1.25rem;
+
+	.card {
+		cursor: pointer;
+		display: flex;
+		flex-direction: column;
+		flex: 1 12.5rem;
+		background-color: var(--white);
+		border-radius: var(--border-radius);
+		border: 1px solid var(--gray);
+		overflow: hidden;
+		transition: var(--transition);
+		box-shadow: var(--box-shadow);
+		-webkit-box-shadow: var(--box-shadow);
+		-moz-box-shadow: var(--box-shadow);
+
+		img {
+			width: 100%;
+			height: clamp(10dvw, 12.5rem, 40dvw);
+			object-fit: cover;
+		}
+
+		p {
+			color: var(--black);
+			margin: clamp(2dvw, 1.25rem, 4dvw);
+		}
+
+		&:is(:hover) {
+			transform: translateY(-0.625rem);
+		}
+	}
+}

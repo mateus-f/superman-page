@@ -1,0 +1,16 @@
+.overlay {
+  display: none;
+	height: 100dvh;
+	width: 100dvh;
+	background-color: rgba(0, 0, 0, 0.5);
+	backdrop-filter: blur(0.3125rem);
+  transition: var(--transition);
+	position: fixed;
+	top: 0;
+	left: 0;
+	z-index: 1;
+}
+
+.showOverlay{
+  display: block;
+}

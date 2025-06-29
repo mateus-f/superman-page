@@ -1,0 +1,13 @@
+q {
+	font-size: var(--section-title);
+	font-style: italic;
+	font-weight: 500;
+	color: var(--black);
+	text-align: center;
+
+	& {
+		+ p {
+			color: var(--black);
+		}
+	}
+}

@@ -1,0 +1,9 @@
+footer{
+  padding: 4dvh var(--side-spacing);
+  background-color: var(--primary);
+  
+  address{
+    color: var(--white);
+    font-style: normal;
+  }
+}

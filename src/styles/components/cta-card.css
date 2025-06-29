@@ -1,0 +1,34 @@
+.call-to-action {
+	flex-wrap: wrap;
+	gap: 1.25rem;
+	width: 100%;
+	background-color: var(--primary);
+	border-radius: var(--border-radius);
+	padding: 4dvh;
+
+	.content {
+		flex: 1 21.25rem;
+
+		h2,
+		p {
+			text-align: start;
+			color: var(--white);
+		}
+
+		h2 {
+			margin-bottom: 0.625rem;
+		}
+	}
+
+	button {
+		border: 0.0625rem solid var(--white);
+		background-color: transparent;
+		color: var(--white);
+		flex: 1 12.5rem;
+
+		&:is(:hover, :focus) {
+			background-color: var(--white);
+			color: var(--primary);
+		}
+	}
+}

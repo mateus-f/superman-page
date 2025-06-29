@@ -1,0 +1,37 @@
+:root {
+	/* COLORS */
+	--primary: #01004f;
+	--primary-transparent: #01004f66;
+	--yellow: #ffe250;
+	--yellow-transparent: #ffe250d5;
+	--red: #e92b2b;
+	--black: #010008;
+	--gray: #ebebed;
+	--white: #f9faff;
+	--box-shadow: 5px 5px 10px 0px rgba(180, 180, 180, 0.1);
+
+	/* TYPOGRAPHY */
+	--font-family: Roboto, sans-serif;
+	--hero-title: clamp(1.75rem, 3vw, 5rem);
+	--section-title: clamp(1.5rem, 2vw, 3rem);
+	--medium-text: clamp(1.125rem, 1.5vw, 3rem);
+	--default-text: clamp(0.875rem, 1vw, 1rem);
+	--hero-title-fw: 900;
+	--title-fw: 700;
+	--default-fw: 300;
+	--title-lh: 1.1;
+	--text-lh: 1.5;
+
+	/* SIZES */
+	--header-height: clamp(3.75rem, 10dvh, 5rem);
+
+	/* ANIMATION */
+	--transition: all 0.2s ease-in-out;
+
+	/* SPACING */
+	--side-spacing: clamp(5vw, 10vw, 20vw);
+	--vertical-spacing: 8dvh;
+
+	/* MEASURES */
+	--border-radius: 0.625rem;
+}

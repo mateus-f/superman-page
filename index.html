@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+    rel="stylesheet">
+  <link rel="stylesheet" href="src/styles/index.css">
+  <link rel="shortcut icon" href="src/assets/favicon/favicon.ico" type="image/x-icon">
+  <meta name="description"
+    content="Site inspirado no Superman. Descubra curiosidades, poderes e motivações do maior herói da Terra. Junte-se à Liga e inspire-se com o Homem de Aço.">
+  <meta name="keywords"
+    content="Superman, Clark Kent, Homem de Aço, herói, super-herói, kriptonita, DC Comics, Planeta Diário, Liga da Justiça">
+  <meta name="author" content="The Odin Project inspirado por Mateus Ferreira">
+  <script src="src/scripts/script.js" defer></script>
+  <title>Superman - Um símbolo de esperança</title>
+</head>
+
+<body>
+  <div class="overlay" aria-hidden="true" aria-label="Close Menu"></div>
+  <header class="between-center">
+    <label>
+      <a href="#home" title="Voltar ao início">Super<span class="man">man</span><span class="dot">.</span>
+      </a>
+    </label>
+    <nav class="off">
+      <a href="#home" title="Voltar ao início">Início</a>
+      <a href="#curiosities" title="Ir para curiosidades">Curiosidades</a>
+      <a href="#quote" title="Ir para citação">Citação</a>
+      <a href="#join" title="Ir para Liga da Justiça">Junte-se</a>
+    </nav>
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor"
+      stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+      class="lucide lucide-align-justify-icon lucide-align-justify" id="hamburguer-menu">
+      <path d="M3 12h18" />
+      <path d="M3 18h18" />
+      <path d="M3 6h18" />
+    </svg>
+  </header>
+  <main>
+    <section class="hero-section" id="home">
+      <div class="side-content align-center">
+        <h1>O <span>Superman</span> está aqui para salvar o seu dia</h1>
+        <p>Mesmo os maiores desafios parecem pequenos quando o Homem de Aço está por perto. Com força, velocidade e
+          valores
+          inabaláveis, ele é mais do que um herói — é um símbolo de esperança.</p>
+        <button class="filled">Junte-se à Liga
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-arrow-up-right-icon lucide-arrow-up-right">
+            <path d="M7 7h10v10" />
+            <path d="M7 17 17 7" />
+          </svg>
+        </button>
+      </div>
+    </section>
+    <section class="curiosities" id="curiosities">
+      <h2>Curiosidades sobre o Superman</h2>
+      <div class="curiosities-cards">
+        <div class="card">
+          <figure>
+            <img src="src/assets/images/superman-flying.webp" alt="Superman voando" loading="lazy">
+          </figure>
+          <p>Ele pode voar a velocidades supersônicas</p>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="src/assets/images/superman-lasereyes.webp" alt="Superman utilizando sua visão de calor" loading="lazy">
+          </figure>
+          <p>Visão de raio-x, calor e telescópica</p>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="src/assets/images/superman-kryptonita.webp" alt="Superman sendo exposto a kriptonita" loading="lazy">
+          </figure>
+          <p>A kriptonita é sua única fraqueza</p>
+        </div>
+        <div class="card">
+          <figure>
+            <img src="src/assets/images/superman-clarkkent.webp" alt="Clark Kent entrando no modo Superman" loading="lazy">
+          </figure>
+          <p>Trabalha como repórter no Planeta Diário</p>
+        </div>
+      </div>
+    </section>
+    <section class="quote" id="quote">
+      <q>
+        Acredito que os humanos merecem ser salvos. É isso que me torna o Superman.
+      </q>
+      <p>– Clark Kent, também conhecido como Superman</p>
+    </section>
+    <section id="join">
+      <div class="call-to-action between-center">
+        <div class="content">
+          <h2>Pronto para proteger o mundo?</h2>
+          <p>Junte-se à iniciativa de heróis e inspire o mundo com seus valores. Vista a capa e seja a mudança.</p>
+        </div>
+        <button>
+          Assuma seu legado
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+            stroke="currentColor" stroke-width="1" stroke-linecap="round" stroke-linejoin="round"
+            class="lucide lucide-external-link-icon lucide-external-link">
+            <path d="M15 3h6v6" />
+            <path d="M10 14 21 3" />
+            <path d="M18 13v6a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V8a2 2 0 0 1 2-2h6" />
+          </svg>
+        </button>
+      </div>
+    </section>
+  </main>
+  <footer>
+    <address>Copyright &copy; Mateus Ferreira 2025</address>
+  </footer>
+</body>
+
+</html>

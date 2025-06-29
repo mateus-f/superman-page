@@ -1,0 +1,51 @@
+header {
+	width: 80%;
+	height: var(--header-height);
+	padding-inline: var(--side-spacing);
+	background-color: var(--primary-transparent);
+	border: 0.0625rem solid var(--primary);
+	backdrop-filter: blur(0.625rem);
+	border-radius: var(--border-radius);
+	position: fixed;
+	justify-self: center;
+	top: 0.625rem;
+	z-index: 2;
+
+	@media (max-width: 41.25rem) {
+		top: 0;
+		width: 100%;
+		border-radius: 0;
+	}
+
+	label {
+		color: var(--yellow);
+
+		a{
+			font-size: clamp(1.125rem, 1.5vw, 3rem);
+			font-weight: var(--title-fw);
+			transition: var(--transition);
+			cursor: pointer;
+		}
+
+		&:is(:hover, :focus) {
+			letter-spacing: 1px;
+		}
+
+		.man {
+			color: var(--yellow);
+		}
+
+		.dot {
+			color: var(--red);
+		}
+	}
+
+	svg {
+		color: var(--white);
+		display: none;
+
+		@media (max-width: 30rem) {
+			display: flex;
+		}
+	}
+}
